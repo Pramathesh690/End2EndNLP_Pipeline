@@ -1,0 +1,14 @@
+[ 2025-02-24 20:05:11,010 ] root - INFO - Entered the run_pipeline method of TrainPipeline class
+[ 2025-02-24 20:05:11,010 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2025-02-24 20:05:11,010 ] root - INFO - Getting the data from GCLoud Storage bucket
+[ 2025-02-24 20:05:11,010 ] root - INFO - Entered the initiate_data_ingestion method of Data ingestion class
+[ 2025-02-24 20:05:11,011 ] root - INFO - Entered the get_data_from_gcloud method of Data ingestion class
+[ 2025-02-24 20:05:25,066 ] root - INFO - Exited the get_data_from_gcloud method of Data ingestion class
+[ 2025-02-24 20:05:25,066 ] root - INFO - Fetched the data from gcloud bucket
+[ 2025-02-24 20:05:25,066 ] root - INFO - Entered the unzip_and_clean method of Data ingestion class
+[ 2025-02-24 20:05:25,120 ] root - INFO - Exited the unzip_and_clean method of Data ingestion class
+[ 2025-02-24 20:05:25,120 ] root - INFO - Unzipped file and split into train and valid
+[ 2025-02-24 20:05:25,121 ] root - INFO - Exited the initiate_data_ingestion method of Data ingestion class
+[ 2025-02-24 20:05:25,121 ] root - INFO - Data ingestion artifact: DataIngestionArtifacts(imbalance_data_file_path='C:\\Users\\I563109\\Downloads\\End2End_NLP_Pipeline\\artifacts\\02_24_2025_20_05_11\\DataIngestionArtifacts\\imbalanced_data.csv', raw_data_file_path='C:\\Users\\I563109\\Downloads\\End2End_NLP_Pipeline\\artifacts\\02_24_2025_20_05_11\\DataIngestionArtifacts\\raw_data.csv')
+[ 2025-02-24 20:05:25,121 ] root - INFO - Got the train and valid from GCLoud Storage
+[ 2025-02-24 20:05:25,121 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
