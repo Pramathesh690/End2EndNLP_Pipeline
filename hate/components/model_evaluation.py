@@ -128,7 +128,7 @@ class ModelEvaluation:
             logging.info("Fetch best model from gcloud storage")
             best_model_path = self.get_best_model_from_gcloud()
 
-            logging.info("Check is best model present in the gcloud storage or not ?")
+            logging.info("Check is best model present in the gcloud storage or not ? {best_model_path}")
             if os.path.isfile(best_model_path) is False:
                 is_model_accepted = True
                 logging.info("glcoud storage model is false and currently trained model accepted is true")

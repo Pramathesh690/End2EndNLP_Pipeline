@@ -46,7 +46,7 @@ ACTIVATION = 'sigmoid'
 # Model training constants
 MODEL_TRAINER_ARTIFACTS_DIR = 'ModelTrainerArtifacts'
 TRAINED_MODEL_DIR = 'trained_model'
-TRAINED_MODEL_NAME = 'model.h5'
+TRAINED_MODEL_NAME = 'model_nlp.h5'
 X_TEST_FILE_NAME = 'x_test.csv'
 Y_TEST_FILE_NAME = 'y_test.csv'
 
@@ -57,11 +57,14 @@ EPOCH = 1
 BATCH_SIZE = 128
 VALIDATION_SPLIT = 0.2
 
+# Model  Evaluation constants
+MODEL_EVALUATION_ARTIFACTS_DIR = 'ModelEvaluationArtifacts'
+BEST_MODEL_DIR = "best_Model"
+MODEL_EVALUATION_FILE_NAME = 'loss.csv'
 
 
 
-
-MODEL_NAME = 'model.h5'
+MODEL_NAME = 'model_nlp.h5'
 APP_HOST = "0.0.0.0"
 APP_PORT = 8080
 
