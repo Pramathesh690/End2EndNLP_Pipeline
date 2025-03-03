@@ -8,7 +8,7 @@
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 3. [Usage](#usage)
-4. [References](#references)
+4. [Blog](#blog)
 5. [Contact](#contact)
 
 ---
@@ -35,6 +35,32 @@ This project provides a practical, end-to-end implementation of a hate speech de
 
 ![NLP_PIPELINE](assets/Search.png)
 
-![NLP Pipeline](./assets/Data%20Ingestion%20(1).png)
+![NLP Pipeline](assets/Result.png)
+
+### Prerequisites
+- Python 3.6+
+- TensorFlow
+- NLTK
+- FastAPI
+- Google Cloud Platform (GCP) Account
+- GCP Credentials
+- Docker
+
+### Installation
+
+1. **Download Python Packages**
+2. **GCP SDK**
+
+### Blog
+
+[https://medium.com/@pramatheshts025/a-practical-guide-to-hate-speech-detection-with-lstms-gcp-and-fastapi-a999cf529a65](https://medium.com/@pramatheshts025/a-practical-guide-to-hate-speech-detection-with-lstms-gcp-and-fastapi-a999cf529a65)
+
+### Contact
+### _Pramathesh T S_
+
+**Email ID** - pramatheshts025@gmail.com<br>
+**LinkedIn** - [https://www.linkedin.com/in/pramatheshts1999/](https://www.linkedin.com/in/pramatheshts1999/)<br>
+**GitHub**   - [https://github.com/Pramathesh690/](https://github.com/Pramathesh690/)
+
 
 
