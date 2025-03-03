@@ -7,9 +7,8 @@
 2. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-3. [Usage](#usage)
-4. [Blog](#blog)
-5. [Contact](#contact)
+3. [Blog](#blog)
+4. [Contact](#contact)
 
 ---
 
