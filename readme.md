@@ -33,7 +33,7 @@ This project implements an end-to-end hate speech detection system using LSTMs, 
 This project provides a practical, end-to-end implementation of a hate speech detection system. It demonstrates the complete machine learning lifecycle, from data acquisition and preprocessing to model training, evaluation, and deployment.  Leveraging the power of Long Short-Term Memory (LSTM) networks, this system effectively identifies hate speech in text.  A key aspect of this project is its cloud-native architecture, utilizing Google Cloud Platform (GCP) for scalable model storage and version control.  The trained model is then exposed as a readily accessible API using FastAPI, enabling seamless integration with other applications.  This project serves as a valuable resource for learning how to build and deploy a real-world hate speech detection system, addressing critical practical considerations such as data imbalance and model optimization.
 
 
-![NLP_PIPELINE](./assets/Data%20Ingestion%20(1).png)
+![NLP_PIPELINE](assets/Search.png)
 
 ![NLP Pipeline](./assets/Data%20Ingestion%20(1).png)
 
